@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./Images/nvidia.png "nvidia"
 [image2]: ./Images/mixedv2.png "model_sedi_mixedv2"
-[image3]: ./Images/placeholder_small.png "Recovery Image"
-[image4]: ./Images/placeholder_small.png "Recovery Image"
+[image3]: ./Images/circuit1.png "circuit1"
+[image4]: ./Images/Circuit2.png "circuit2"
 [image5]: ./Images/placeholder_small.png "Recovery Image"
 [image6]: ./Images/placeholder_small.png "Normal Image"
 [image7]: ./Images/placeholder_small.png "Flipped Image"
@@ -94,9 +94,10 @@ To generate a valueable dataset to train the network I drove the first training 
 | multiple sharp curves regular direction  |
 | multiple sharp curves reversed direction |
 
+### Video of the model on circuit 1:
 
 <a href="https://www.youtube.com/watch?v=pIqWvn6jHCo
-" target="_blank"><img src="https://www.youtube.com/watch?v=pIqWvn6jHCo.jpg" 
+" target="_blank"><img src="Images/circuit1.png"
 alt="Model after training on the dataset  (x4 speed)" width="240" height="180" border="10" /></a>
 
 After my model successfully completed circuit 1 (on all velocities between 9-30 mp/h) I was curious how it would perform on the second circuit without training for it.
@@ -116,7 +117,9 @@ Final learning history:
 
 ![alt text][image2]
 
+### Video of the final model on circuit 2:
+
 <a href="https://www.youtube.com/watch?v=pzMp2ard7_I
-" target="_blank"><img src="https://www.youtube.com/watch?v=pzMp2ard7_I" 
+" target="_blank"><img src="Images/Circuit2.png" 
 alt="Model after training on the dataset   (x2 speed)" width="240" height="180" border="10" /></a>
 
