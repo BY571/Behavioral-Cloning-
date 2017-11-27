@@ -8,7 +8,7 @@
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
-* Build a convolution neural network in Keras that predicts steering angles from images
+* Build, a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
@@ -103,12 +103,20 @@ After my model successfully completed circuit 1 (on all velocities between 9-30 
 Well, it performed pretty bad, so I added 2 laps on training mode to the dataset and trained a model on this, now mixed dataset. 
 Its performence increased dramatically and it almost completed 80% of the lap. I observed the critical sections on the circuit and collected additional training data for especially these situations/sections. After training a new model on this extendet dataset it successfully completed the whole circuit 2. And in my opinion its performence on circuit 1 also increased a bit. I guess its a result of a better data distribution.
 
-Final learing history: 
+| Mixed-Dataset History |
+| ---   |
+| regular direction   5 laps               |
+| reverse direction   5 laps               |
+| multiple sharp curves regular direction  |
+| multiple sharp curves reversed direction |
+| 2 laps on Circuit 2  |
+| critical situations and sharp turns on Circuit 2 |
+
+Final learning history: 
 
 ![alt text][image2]
 
 <a href="https://www.youtube.com/watch?v=pzMp2ard7_I
 " target="_blank"><img src="https://www.youtube.com/watch?v=pzMp2ard7_I" 
 alt="Model after training on the dataset   (x2 speed)" width="240" height="180" border="10" /></a>
-
 
