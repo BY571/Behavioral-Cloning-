@@ -98,7 +98,7 @@ To generate a valueable dataset to train the network I drove the first training 
 
 <a href="https://www.youtube.com/watch?v=pIqWvn6jHCo
 " target="_blank"><img src="Images/circuit1.png"
-alt="Model after training on the dataset  (x4 speed)" width="240" height="180" border="10" /></a>
+alt="Model after training on the dataset  (x4 speed)" width="360" height="270" border="10" /></a>
 
 After my model successfully completed circuit 1 (on all velocities between 9-30 mp/h) I was curious how it would perform on the second circuit without training for it.
 Well, it performed pretty bad, so I added 2 laps on training mode to the dataset and trained a model on this, now mixed dataset. 
@@ -121,5 +121,5 @@ Final learning history:
 
 <a href="https://www.youtube.com/watch?v=pzMp2ard7_I
 " target="_blank"><img src="Images/Circuit2.png" 
-alt="Model after training on the dataset   (x2 speed)" width="240" height="180" border="10" /></a>
+alt="Model after training on the dataset   (x2 speed)" width="360" height="270" border="10" /></a>
 
