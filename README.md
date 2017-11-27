@@ -103,7 +103,12 @@ After my model successfully completed circuit 1 (on all velocities between 9-30 
 Well, it performed pretty bad, so I added 2 laps on training mode to the dataset and trained a model on this, now mixed dataset. 
 Its performence increased dramatically and it almost completed 80% of the lap. I observed the critical sections on the circuit and collected additional training data for especially these situations/sections. After training a new model on this extendet dataset it successfully completed the whole circuit 2. And in my opinion its performence on circuit 1 also increased a bit. I guess its a result of a better data distribution.
 
+Final learing history: 
+
+![alt text][image2]
+
 <a href="https://www.youtube.com/watch?v=pzMp2ard7_I
 " target="_blank"><img src="https://www.youtube.com/watch?v=pzMp2ard7_I" 
 alt="Model after training on the dataset   (x2 speed)" width="240" height="180" border="10" /></a>
+
 
